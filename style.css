@@ -1,0 +1,102 @@
+body,
+html {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Lato", sans-serif;
+}
+
+/*                */
+/* Background img */
+
+.common {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  opacity: 0.7;
+}
+
+.first-page {
+  background-image: url(./img/bg.png);
+  height: 100%;
+}
+
+.second-page {
+  background-image: url(./img/bg.jpeg);
+  height: 80%;
+}
+
+.thirth-page {
+  background-image: url(./img/bg2.png);
+  height: 80%;
+}
+
+.fourth-page {
+  background-image: url(./img/bg3.jpeg);
+  height: 80%;
+}
+
+.fifth-page {
+  background-image: url(./img/bg1.jpeg);
+  height: 100%;
+}
+
+/* Div header */
+
+.container {
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  color: #fce2e2;
+  background-color: rgb(4, 23, 130);
+
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.option1 {
+  text-transform: uppercase;
+  outline: 0.5rem inset rgb(255, 255, 255);
+  outline-offset: 0.6rem;
+  padding: 2rem;
+}
+
+.option2 {
+  text-transform: capitalize;
+  outline: 0.5rem inset rgb(4, 23, 130);
+  outline-offset: 0.2rem;
+  padding: 0.7rem;
+}
+
+.logo {
+  width: 20rem;
+}
+
+/* Text */
+
+.part {
+  text-align: center;
+  padding: 3rem 5rem;
+  line-height: 1.8rem;
+}
+
+.part-light {
+  background-color: rgb(4, 23, 130);
+  color: white;
+}
+
+.part-dark {
+  background-color:  rgb(4, 23, 130);
+  color: #ddd;
+}
